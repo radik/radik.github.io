@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <!-- ## for client-side less
+  <link rel="stylesheet/less" type="text/css" href="/theme/css/style.less">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.7.3/less.min.js" type="text/javascript"></script>
+  -->
+  <link rel="stylesheet" type="text/css" href="/theme/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/theme/css/pygments.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans|PT+Serif|PT+Mono">
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Radik Fattakhov">
+  <meta name="description" content="Posts and writings by Radik Fattakhov">
+
+
+<meta name="keywords" content="java, dependency injection, dagger, spring, google guice, square, IoC, infoq">
+
+  <title>
+    Radik Fattakhov
+&ndash; Dagger: Dependency Injection Framework для Android  </title>
+
+</head>
+
+<body>
+  <aside>
+    <div id="user_meta">
+      <a href="">
+        <img src="/theme/images/logo.png" alt="logo">
+      </a>
+      <h2><a href="">Radik Fattakhov</a></h2>
+      <p></p>
+      <ul>
+        <li><a href="http://twitter.com/radikft" target="_blank">Twitter</a></li>
+        <li><a href="http://github.com/radik" target="_blank">Github</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <main>
+    <header>
+      <p>
+      <a href="">Index</a> &brvbar; <a href="/archives.html">Archives</a>
+      </p>
+    </header>
+
+<article>
+  <div class="article_title">
+    <h3><a href="/2013-02-18-dagger-dependency-injection-framework-android.html">Dagger: Dependency Injection Framework для Android</a></h3>
+  </div>
+  <div class="article_text">
+    <p><strong>Disclaimer</strong>: Это перевод <a href="http://www.infoq.com/news/2012/10/dagger">статьи с InfoQ</a>. Перевод сделан исключительно из эгоистических соображений для повышения собственного уровня грамотности. Мое мнение не обязательно совпадает с мнением автора.</p>
+<p><a href="https://squareup.com/">Square</a> -  компания, специализирующаяся на мобильных платежах, недавно представила новую библиотеку <a href="http://www.slideshare.net/burkeeric/android-app-anatomy">Dagger</a>, описываемую как "A fast dependency injector for Android and Java". Код доступен на <a href="https://github.com/square/dagger">GitHub</a>.</p>
+<p>Dependency injection (известный также как  <a href="http://martinfowler.com/articles/injection.html">Inversion of Control</a>) уже вовсю используется в таких популярных фреймворках как <a href="http://www.infoq.com/spring">Spring</a> и <a href="http://www.infoq.com/guice">Google Guice</a>. Однако они создавались с прицелом на стандартную JVM без учета особенностей мобильных платформ, таких как Android. В то время как <a href="http://code.google.com/p/roboguice/">RoboGuice</a> является попыткой перенести опыт Guice на Android, Dagger использует другой подход и фокусируется на упрощении возможностей для улучшения производительности.</p>
+<p>В настоящее время Dagger поддерживает:</p>
+<ul>
+<li>Constructor injection при помощи стандартных аннотаций <a href="http://www.jcp.org/en/jsr/detail?id=330">JSR-330</a></li>
+<li>Создание объектов при помощи аннотации @Provides</li>
+<li>Центральный контекст для дерева зависимостей</li>
+<li>Ленивые инъекции для дорогих ресурсов</li>
+<li>Именование для различных реализаций одного интерфейса</li>
+<li>Статическую инъекцию (для legacy кода)</li>
+<li>Валидацию связей во время компиляции</li>
+</ul>
+<!-- more -->
+
+<p>На самом базовом уровне Dagger использует <a href="http://docs.oracle.com/javaee/6/api/javax/inject/Inject.html">аннотацию Inject</a>, которая так же поддерживается Spring и Guice. В Dagger поддерживается только инъекция через конструктор. Вы не можете использовать инъекцию через методы. Dagger также предоставляет аннотацию @Provides, которая работает аналогично одноименной аннотации в Guice.</p>
+<p>После того как объявлены зависимости, установленные классы могут быть получены при помощи ObjectGraph, который хранит дерево всех объектов инициализированных при помощи Dagger. Граф работает аналогично ApplicationContext в Spring и Injector в Guice. Dagger так же разделяет концепцию модулей (Modules - коллекцию привязок), которую можно увидетьи в Guice.</p>
+<p>Некоторые зависимости, такие как пул соединений, очень дороги, чтобы
+создавать их заранее. Для таких ситуаций Dagger поддерживает ленивую
+инициализацию. Опять синтаксис аналогичен Guice. Для случаев, когда
+возможны несколько реализаций одного интерфейса, Dagger следует
+соглашению аннотации @Named.</p>
+<p>Наконец Dagger поддерживает инъекцию унаследованного кода, который
+использует фабрики для внедрения зависимостей. И снова все это работает
+аналогично синтаксису в Google Guice.</p>
+<p>Пока кажется, что Dagger поддерживает лишь некоторое подмножество Google
+Guice. Это логично, учитывая некоторое пересечение множеств людей,
+разрабатываемых каждую из библиотек. Все же Dagger имеет более узкий
+профиль и сделан с прицелом на Android. Наиболее поразительно полное
+отсутствие возможности внедрение методов и полей.</p>
+<p>Dagger жертвует этой возможностью, но улучшает обнаружение и проверку
+ошибок. Обычно об ошибках внедрения зависимостей сообщается во время
+выполнения приложения. Однако Dagger содержит валидацию аннотаций во
+время компиляции, которая позволяет выявлять ошибки во время компиляции.
+Это может облегчить разработку приложений для Android.</p>
+<p>Другой большой отличительной чертой является отсутствие scoping, по
+сравнению с другими популярными фреймворками. Dagger поддерживает лишь
+аннотацию @Singleton и ничего больше. Это ожидаемо, так как разработка
+под Android имеет отличные от стандартной веб-разработки требования (где
+имеются request и session scopes).</p>
+<p>Стоит также заметить, что пользователи Spring не только заметили Dagger,
+но и создали два issue reports о недостатках Spring по сравнению с
+Dagger. Первый о том факте, что <a href="https://jira.springsource.org/browse/SPR-9835">Spring внедряет лишь те классы, которые сами аннотированы</a>, и второй о неспособности Spring <a href="https://jira.springsource.org/browse/SPR-9836">различать классы, которые реализуют интерфейс с обобщениями</a>.</p>
+<p>Автор - <strong><a href="http://www.infoq.com/author/Kostis-Kapelonis">Kostis Kapelonis</a> </strong>Software Engineer specializing in Enterprise applications</p>
+  </div>
+  <div class="article_meta">
+    <p>Posted on: Mon 18 February 2013</p>
+    <p>Category: <a href="/category/blog.html">Blog</a>
+ &ndash; Tags:
+      <a href="/tag/java.html">java</a>,      <a href="/tag/dependency-injection.html">dependency injection</a>,      <a href="/tag/dagger.html">dagger</a>,      <a href="/tag/spring.html">spring</a>,      <a href="/tag/google-guice.html">google guice</a>,      <a href="/tag/square.html">square</a>,      <a href="/tag/ioc.html">IoC</a>,      <a href="/tag/infoq.html">infoq</a>    </p>
+  </div>
+
+
+</article>
+
+
+    <div id="ending_message">
+      <p>&copy; Radik Fattakhov. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>. Theme by Giulio Fidente on <a href="https://github.com/gfidente/pelican-svbhack" target="_blank">github</a>. .</p>
+    </div>
+  </main>
+</body>
+</html>
