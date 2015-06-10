@@ -6,7 +6,7 @@
 &lt;p&gt;Для участия выбрал клнкурс от &lt;a href="http://avito.ru"&gt;avito.ru&lt;/a&gt;.
 Суть задания - создать модель, предсказывающую кликнет ли пользователь
 на том или ином объявлении. Подробнее можно прочитать
-[в описании](&lt;a href="https://www.kaggle.com/c/avito-context-ad-clicks/data"&gt;конкурс&lt;/a&gt;.&lt;/p&gt;
+&lt;a href="https://www.kaggle.com/c/avito-context-ad-clicks/data"&gt;в описании&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Исходные данные и инструментарий:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Опыта в Machine Learning нет, если не считать курс на
