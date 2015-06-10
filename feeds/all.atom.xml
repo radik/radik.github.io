@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Radik Fattakhov</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2015-06-10T21:35:05+02:00</updated><entry><title>Kaggle competition - Avito Context Ad Clicks</title><link href="/2015-06-10-kaggle-avito-contest.html" rel="alternate"></link><updated>2015-06-10T21:35:05+02:00</updated><author><name>Radik Fattakhov</name></author><id>tag:,2015-06-10:2015-06-10-kaggle-avito-contest.html</id><summary type="html">&lt;p&gt;Если кто не знает, &lt;a href="http://kaggle.com"&gt;kaggle.com&lt;/a&gt; - ресурс, на котором
+проводятся соревнования по Machine Learning. Я на нем давно зарегистрировался,
+но так ни разу не принял участия ни в одном из соревнований. Надеюсь, что
+в этот раз хватит настроя все довести до логичного конца.&lt;/p&gt;
+&lt;p&gt;Для участия выбрал клнкурс от &lt;a href="http://avito.ru"&gt;avito.ru&lt;/a&gt;.
+Суть задания - создать модель, предсказывающую кликнет ли пользователь
+на том или ином объявлении. Подробнее можно прочитать
+[в описании](&lt;a href="https://www.kaggle.com/c/avito-context-ad-clicks/data"&gt;конкурс&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Исходные данные и инструментарий:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Опыта в Machine Learning нет, если не считать курс на
+&lt;a href="http://coursera.com"&gt;coursera&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Использовать собираюсь &lt;a href="http://spark.apache.org"&gt;spark&lt;/a&gt;. На Scala
+production не писал, но разберусь.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Цели:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Отправить адекватное решение до истечения срока.&lt;/li&gt;
+&lt;li&gt;Потрогать &lt;em&gt;Apache Spark&lt;/em&gt; на практике.&lt;/li&gt;
+&lt;li&gt;Have fun!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Постараюсь отписывать по мере продвижения. Эти записи веду исключительно
+для себя, хотя может кому-то пригодится.&lt;/p&gt;</summary><category term="kaggle"></category><category term="machine learning"></category><category term="spark"></category></entry><entry><title>Введение в AngularJS</title><link href="/2015-03-06-pogruzhenie-v-it-angularjs.html" rel="alternate"></link><updated>2015-03-06T23:58:18+01:00</updated><author><name>Radik Fattakhov</name></author><id>tag:,2015-03-06:2015-03-06-pogruzhenie-v-it-angularjs.html</id><summary type="html">&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLm9AQhR8y9nO6aEzmjOXELifem9Lr2X6n" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="angular"></category><category term="javascript"></category><category term="diveinto.it"></category></entry><entry><title>Перенос блога на Pelican + github</title><link href="/2014-08-14-new-blog.html" rel="alternate"></link><updated>2014-08-14T22:20:00+02:00</updated><author><name>Radik Fattakhov</name></author><id>tag:,2014-08-14:2014-08-14-new-blog.html</id><summary type="html">&lt;p&gt;Давно хотел мигрировать свой блог на статическую генерацию.
+После недолгого рассмотрения вариантов выбрал
+&lt;a href="http://getpelican.com"&gt;Pelican&lt;/a&gt;.&lt;/p&gt;</summary><category term="blog"></category><category term="pelican"></category></entry><entry><title>DevDay №5</title><link href="/2014-01-12-devday-no5.html" rel="alternate"></link><updated>2014-01-12T00:01:01+01:00</updated><author><name>Radik Fattakhov</name></author><id>tag:,2014-01-12:2014-01-12-devday-no5.html</id><summary type="html">&lt;p&gt;Сегодня (11 янв 2014) делал доклад на очередном казанском meetup
+&lt;a href="http://www.meetup.com/devday/events/158725142/"&gt;http://www.meetup.com/devday/events/158725142/&lt;/a&gt;, который организуют наши ребята из БАРС Груп.&lt;/p&gt;
+&lt;p&gt;Видео не записывал, но есть материалы:&lt;/p&gt;
+&lt;p&gt;Репоз­итори­й с исход­никам­и - &lt;a href="https://github.com/radik/meetup-01-11-2014" title="https://github.com/radik/meetup-01-11-2014"&gt;https://github.com/radik/meetup-01-11-2014/&lt;/a&gt;­&lt;/p&gt;
+&lt;p&gt;Презе­нтаци­я - &lt;a href="http://radik.github.io/meetup-01-11-2014/" title="http://radik.github.io/meetup-01-11-2014/"&gt;http://radik.github.io/meetup-01-11-2014/&lt;/a&gt;­&lt;/p&gt;
+&lt;p&gt;Демо-п­рилож­ение - &lt;a href="http://radik.github.io/meetup-01-11-2014/demo/" title="http://radik.github.io/meetup-01-11-2014/demo/"&gt;http://radik.github.io/meetup-01-11-2014/demo/&lt;/a&gt;­&lt;/p&gt;
+&lt;p&gt;Презе­нтаци­я сдела­на на фрейм­ворке­ &lt;a href="http://lab.hakim.se/reveal-js"&gt;http://lab.hakim.se/reveal-js&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Всем советую подписаться на обновления (http://www.meetup.com/devday/),
+чтобы не пропустить очередную встречу, на которой можно узнать много
+нового и пообщаться с коллегами.&lt;/p&gt;</summary><category term="talks"></category><category term="angularjs"></category></entry><entry><title>Инструкция для выполнения домашнего задания Лаборатория "БАРС Груп - ВШ ИТиС" (JavaScript).</title><link href="/2013-12-10-video.html" rel="alternate"></link><updated>2013-12-10T22:47:18+01:00</updated><author><name>Radik Fattakhov</name></author><id>tag:,2013-12-10:2013-12-10-video.html</id><summary type="html">&lt;p&gt;Репозиторий с домашним заданием: 
+&lt;a href="https://github.com/radik/bars-lab"&gt;https://github.com/radik/bars-lab&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;JasmineJs - фреймворк для написания тестов.
+&lt;a href="http://pivotal.github.io/jasmine/"&gt;http://pivotal.github.io/jasmine/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Инструкция для работы с github
+&lt;a href="https://help.github.com/articles/fork-a-repo"&gt;https://help.github.com/articles/fork-a-repo&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="500" height="374" id="youtube_iframe" src="https://www.youtube.com/embed/aNJa1ZOAKUE?feature=oembed&amp;amp;enablejsapi=1&amp;amp;origin=http://safe.txmblr.com&amp;amp;wmode=opaque" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="ВШ ИТИС"></category><category term="преподавание"></category><category term="barslab"></category></entry><entry><title>Четвертое занятие в рамках Bars Level Up</title><link href="/2013-12-10-bars-level-up.html" rel="alternate"></link><updated>2013-12-10T22:43:33+01:00</updated><author><name>Radik Fattakhov</name></author><id>tag:,2013-12-10:2013-12-10-bars-level-up.html</id><summary type="html">&lt;p&gt;Слайды - &lt;a href="http://radik.github.io/bars-level-up-js/mc04/"&gt;http://radik.github.io/bars-level-up-js/mc04/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Домашнее задание &lt;a href="http://radik.github.io/bars-level-up-js/hw04/README.md"&gt;http://radik.github.io/bars-level-up-js/hw04/README.md&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="500" height="281" id="youtube_iframe" src="https://www.youtube.com/embed/ekLFggF0Tzk?feature=oembed&amp;amp;enablejsapi=1&amp;amp;origin=http://safe.txmblr.com&amp;amp;wmode=opaque" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="bars level up"></category><category term="java script"></category><category term="extjs"></category><category term="barsgroup"></category></entry><entry><title>Второе занятие по JavaScript в рамках Bars Level Up - Часть 1</title><link href="/2013-12-10-javascript-bars-level.html" rel="alternate"></link><updated>2013-12-10T22:37:00+01:00</updated><author><name>Radik Fattakhov</name></author><id>tag:,2013-12-10:2013-12-10-javascript-bars-level.html</id><summary type="html">&lt;p&gt;Слайды - &lt;a href="http://radik.github.io/bars-level-up-js/mc02/"&gt;http://radik.github.io/bars-level-up-js/mc02/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Домашнее задание - &lt;a href="http://radik.github.io/bars-level-up-js/hw02/README.md"&gt;http://radik.github.io/bars-level-up-js/hw02/README.md&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="500" height="281" id="youtube_iframe" src="https://www.youtube.com/embed/LyaT7n6vexo?feature=oembed&amp;amp;enablejsapi=1&amp;amp;origin=http://safe.txmblr.com&amp;amp;wmode=opaque" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="javascript"></category><category term="bars level up"></category><category term="barsgroup"></category></entry><entry><title>Год в БАРС Груп</title><link href="/2013-11-10-god-v-bars-grup.html" rel="alternate"></link><updated>2013-11-10T00:26:01+01:00</updated><author><name>Radik Fattakhov</name></author><id>tag:,2013-11-10:2013-11-10-god-v-bars-grup.html</id><summary type="html">&lt;p&gt;На днях был ровно год как я присоединился к БАРС Груп.&lt;/p&gt;
+&lt;p&gt;Как то быстро пролетел этот год. Видимо это объясняется тем, что
+практически с первых дней без раскачки пришлось включаться в работу и
+после этого уже не было возможности остановиться (только чуть-чуть
+отдышаться во время отпуска в начале лета).&lt;/p&gt;
+&lt;p&gt;Языки, на которых я писал за этот год:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;JavaScript&lt;/li&gt;
+&lt;li&gt;C#&lt;/li&gt;
+&lt;li&gt;Java&lt;/li&gt;
+&lt;li&gt;Ruby&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Участвовал в разработке одного мобильного приложения и нашего
+большого продукта для ЖКХ, сделал несколько модулей для нашей &lt;a href="http://docs.bars-open.ru/b4docs/"&gt;платформы Bars.B4&lt;/a&gt;, создавал сервисы на платформе Liferay, дорабатывал
+&lt;a href="https://github.com/senchalabs/jsduck/wiki"&gt;JsDuck&lt;/a&gt; для нашей &lt;a href="http://docs.bars-open.ru"&gt;системы документации&lt;/a&gt; и много чего еще. Провел около &lt;a href="http://www.youtube.com/channel/UCp7AFy6FfKwNLjzjC3fpxRw"&gt;10 мастер классов&lt;/a&gt;, а еще &lt;a href="http://vk.com/barsgroup_lab"&gt;вернулся к преподаванию&lt;/a&gt;.  &lt;/p&gt;
+&lt;p&gt;Сделано немало, но можно сделать еще больше. Вообще надо много над
+чем еще поработать и много чего улучшить.&lt;/p&gt;
+&lt;p&gt;Надеюсь, впереди ждут еще более интересные и сложные
+задачи.&lt;/p&gt;
+&lt;p&gt;А главное впечатление от года работы в БАРС Груп - это люди. Когда
+собирается такая команда, возможно практически все. У каждого из вас
+можно чему-то поучиться как в профессиональном, так и в человеческом
+плане - целеустремленность, жизнерадостность, профессионализм... И с
+первых дней меня не покидает ощущение семьи, когда ты чувствуешь
+всестороннюю поддержку и сам готов оказать помочь любому коллеге. Это
+чертовски приятно. Спасибо вам всем ребята!&lt;/p&gt;</summary><category term="barsgroup"></category><category term="anniversary"></category><category term="barsteam"></category></entry><entry><title>Первое занятие в рамках Bars Level Up - Часть 1</title><link href="/2013-10-30-bars-level-up-1.html" rel="alternate"></link><updated>2013-10-30T06:06:00+01:00</updated><author><name>Radik Fattakhov</name></author><id>tag:,2013-10-30:2013-10-30-bars-level-up-1.html</id><summary type="html">&lt;p&gt;Слайды - &lt;a href="http://radik.github.io/bars-level-up-js/mc01/"&gt;http://radik.github.io/bars-level-up-js/mc01/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Домашнее задание &lt;a href="http://radik.github.io/bars-level-up-js/hw01/README.md"&gt;http://radik.github.io/bars-level-up-js/hw01/README.md&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="500" height="374" id="youtube_iframe" src="https://www.youtube.com/embed/__HtpkV-gUk?feature=oembed&amp;amp;enablejsapi=1&amp;amp;origin=http://safe.txmblr.com&amp;amp;wmode=opaque" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="javascript"></category><category term="bars level up"></category></entry><entry><title>Первое занятие в рамках Bars Level Up - Часть 2</title><link href="/2013-10-30-bars-level-up-2.html" rel="alternate"></link><updated>2013-10-30T06:06:00+01:00</updated><author><name>Radik Fattakhov</name></author><id>tag:,2013-10-30:2013-10-30-bars-level-up-2.html</id><summary type="html">&lt;p&gt;Слайды - &lt;a href="http://radik.github.io/bars-level-up-js/mc01/"&gt;http://radik.github.io/bars-level-up-js/mc01/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Домашнее задание &lt;a href="http://radik.github.io/bars-level-up-js/hw01/README.md"&gt;http://radik.github.io/bars-level-up-js/hw01/README.md&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="500" height="374" id="youtube_iframe" src="https://www.youtube.com/embed/1uvGKW5P7B8?feature=oembed&amp;amp;enablejsapi=1&amp;amp;origin=http://safe.txmblr.com&amp;amp;wmode=opaque" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="javascript"></category><category term="bars level up"></category></entry><entry><title>Bars Level Up - JavaScript, пролог</title><link href="/2013-10-29-bars-level-up-javascript.html" rel="alternate"></link><updated>2013-10-29T23:31:59+01:00</updated><author><name>Radik Fattakhov</name></author><id>tag:,2013-10-29:2013-10-29-bars-level-up-javascript.html</id><summary type="html">&lt;p&gt;Начиная с августа у нас в БАРС Груп идут внутренние тренинги под общим
+названием Bars Level Up. От наших обычных мастер-классов они отличаются
+тем, что проходят они сериям и каждое следующее занятие основывается на
+материале предыдущего, а еще есть домашние задания.&lt;/p&gt;
+&lt;p&gt;Мне довелось поучаствовать в качестве тренера по направлению javascript.
+Каждый мастер-класс записывается на видео. Эти записи я буду публиковать
+у себя в блоге.&lt;/p&gt;
+&lt;p&gt;Можно ругать и пинать ногами, но лучше оставить конструктивное
+замечание, чтобы я смог учесть свои ошибки и следующие доклады делал
+лучше.&lt;/p&gt;</summary><category term="java script"></category><category term="bars level up"></category></entry><entry><title>Dagger: Dependency Injection Framework для Android</title><link href="/2013-02-18-dagger-dependency-injection-framework-android.html" rel="alternate"></link><updated>2013-02-18T00:15:59+01:00</updated><author><name>Radik Fattakhov</name></author><id>tag:,2013-02-18:2013-02-18-dagger-dependency-injection-framework-android.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: Это перевод &lt;a href="http://www.infoq.com/news/2012/10/dagger"&gt;статьи с InfoQ&lt;/a&gt;. Перевод сделан исключительно из эгоистических соображений для повышения собственного уровня грамотности. Мое мнение не обязательно совпадает с мнением автора.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://squareup.com/"&gt;Square&lt;/a&gt; -  компания, специализирующаяся на мобильных платежах, недавно представила новую библиотеку &lt;a href="http://www.slideshare.net/burkeeric/android-app-anatomy"&gt;Dagger&lt;/a&gt;, описываемую как "A fast dependency injector for Android and Java". Код доступен на &lt;a href="https://github.com/square/dagger"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Dependency injection (известный также как  &lt;a href="http://martinfowler.com/articles/injection.html"&gt;Inversion of Control&lt;/a&gt;) уже вовсю используется в таких популярных фреймворках как &lt;a href="http://www.infoq.com/spring"&gt;Spring&lt;/a&gt; и &lt;a href="http://www.infoq.com/guice"&gt;Google Guice&lt;/a&gt;. Однако они создавались с прицелом на стандартную JVM без учета особенностей мобильных платформ, таких как Android. В то время как &lt;a href="http://code.google.com/p/roboguice/"&gt;RoboGuice&lt;/a&gt; является попыткой перенести опыт Guice на Android, Dagger использует другой подход и фокусируется на упрощении возможностей для улучшения производительности.&lt;/p&gt;
+&lt;p&gt;В настоящее время Dagger поддерживает:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Constructor injection при помощи стандартных аннотаций &lt;a href="http://www.jcp.org/en/jsr/detail?id=330"&gt;JSR-330&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Создание объектов при помощи аннотации @Provides&lt;/li&gt;
+&lt;li&gt;Центральный контекст для дерева зависимостей&lt;/li&gt;
+&lt;li&gt;Ленивые инъекции для дорогих ресурсов&lt;/li&gt;
+&lt;li&gt;Именование для различных реализаций одного интерфейса&lt;/li&gt;
+&lt;li&gt;Статическую инъекцию (для legacy кода)&lt;/li&gt;
+&lt;li&gt;Валидацию связей во время компиляции&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;На самом базовом уровне Dagger использует &lt;a href="http://docs.oracle.com/javaee/6/api/javax/inject/Inject.html"&gt;аннотацию Inject&lt;/a&gt;, которая так же поддерживается Spring и Guice. В Dagger поддерживается только инъекция через конструктор. Вы не можете использовать инъекцию через методы. Dagger также предоставляет аннотацию @Provides, которая работает аналогично одноименной аннотации в Guice.&lt;/p&gt;
+&lt;p&gt;После того как объявлены зависимости, установленные классы могут быть получены при помощи ObjectGraph, который хранит дерево всех объектов инициализированных при помощи Dagger. Граф работает аналогично ApplicationContext в Spring и Injector в Guice. Dagger так же разделяет концепцию модулей (Modules - коллекцию привязок), которую можно увидетьи в Guice.&lt;/p&gt;
+&lt;p&gt;Некоторые зависимости, такие как пул соединений, очень дороги, чтобы
+создавать их заранее. Для таких ситуаций Dagger поддерживает ленивую
+инициализацию. Опять синтаксис аналогичен Guice. Для случаев, когда
+возможны несколько реализаций одного интерфейса, Dagger следует
+соглашению аннотации @Named.&lt;/p&gt;
+&lt;p&gt;Наконец Dagger поддерживает инъекцию унаследованного кода, который
+использует фабрики для внедрения зависимостей. И снова все это работает
+аналогично синтаксису в Google Guice.&lt;/p&gt;
+&lt;p&gt;Пока кажется, что Dagger поддерживает лишь некоторое подмножество Google
+Guice. Это логично, учитывая некоторое пересечение множеств людей,
+разрабатываемых каждую из библиотек. Все же Dagger имеет более узкий
+профиль и сделан с прицелом на Android. Наиболее поразительно полное
+отсутствие возможности внедрение методов и полей.&lt;/p&gt;
+&lt;p&gt;Dagger жертвует этой возможностью, но улучшает обнаружение и проверку
+ошибок. Обычно об ошибках внедрения зависимостей сообщается во время
+выполнения приложения. Однако Dagger содержит валидацию аннотаций во
+время компиляции, которая позволяет выявлять ошибки во время компиляции.
+Это может облегчить разработку приложений для Android.&lt;/p&gt;
+&lt;p&gt;Другой большой отличительной чертой является отсутствие scoping, по
+сравнению с другими популярными фреймворками. Dagger поддерживает лишь
+аннотацию @Singleton и ничего больше. Это ожидаемо, так как разработка
+под Android имеет отличные от стандартной веб-разработки требования (где
+имеются request и session scopes).&lt;/p&gt;
+&lt;p&gt;Стоит также заметить, что пользователи Spring не только заметили Dagger,
+но и создали два issue reports о недостатках Spring по сравнению с
+Dagger. Первый о том факте, что &lt;a href="https://jira.springsource.org/browse/SPR-9835"&gt;Spring внедряет лишь те классы, которые сами аннотированы&lt;/a&gt;, и второй о неспособности Spring &lt;a href="https://jira.springsource.org/browse/SPR-9836"&gt;различать классы, которые реализуют интерфейс с обобщениями&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Автор - &lt;strong&gt;&lt;a href="http://www.infoq.com/author/Kostis-Kapelonis"&gt;Kostis Kapelonis&lt;/a&gt; &lt;/strong&gt;Software Engineer specializing in Enterprise applications&lt;/p&gt;</summary><category term="java"></category><category term="dependency injection"></category><category term="dagger"></category><category term="spring"></category><category term="google guice"></category><category term="square"></category><category term="IoC"></category><category term="infoq"></category></entry><entry><title>N причин любить Барс Груп</title><link href="/2013-02-14-n.html" rel="alternate"></link><updated>2013-02-14T21:43:05+01:00</updated><author><name>Radik Fattakhov</name></author><id>tag:,2013-02-14:2013-02-14-n.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: статья не заказная. Писал добровольно, с пистолетом у
+виска или с мешком денег рядом никто не стоял. Корыстного расчета тоже
+не имею. Кто со мной знаком, тот знает, что я не из тех, кто лицемерит и
+подхалимничает. Те, кто не знаком и не верит, вам лучше дальше не
+читать, ибо слова могут оказаться приторно сладкими и у вас разовьется
+кариес - хорошие дантисты нынче стоят дорого.&lt;/p&gt;
+&lt;p&gt;Прошло почти 4 месяца с тех пор, как я стал частью команды Барс Груп.
+Ниже мои личные впечатления за этот период, которые кому-то могут быть
+интересны.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Don't be evil - Kazan style&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;У компании есть четкая глобальная цель - "Каждый день мы идем на работу,
+чтобы сделать нашу жизнь лучше". И это действительно так. Для кого-то
+звучит пафосно - ок, ваше право воспринимать этот мир так, как хочется.
+Но когда каждый день видишь, что работа выполняется не для того, чтобы
+срубить бабло..ну хорошо, не только для того, чтобы срубить бабло, а
+чтобы пользователям стало удобней и приятней пользоваться продуктом -
+этим заражаешься и заряжаешься.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;strong&gt;Барс Груп - технологическая компания&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Вот это стало очень приятной неожиданностью после моего прихода в Барс
+Груп. Продукты компании не просто клепаются на общедоступных фреймворках
+и где каждый последующий похож на предыдущий, когда в десятый раз за
+месяц реализуешь тот же самый   DAO (Java-dev'ы поймут) или Repository
+(привет и вам, .Net разработчики). Разрабатываются целые платформы,
+которые являются основой для продуктов компании. Вот здесь они, самые
+вкусные задачи, - мечта любого хорошего разработчика.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Главное - люди&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Не раз слышал от первых лиц компании, что самый ценный ресурс Барс
+Груп - это люди. Но одно дело слышать, другое видеть, что этим ресурсом
+дорожат, его холят и лелеют, растят и развивают. Семинары, конференции,
+библиотека and so on, and so on, and so on. К тому же руководители (и на
+высшем, и непосредственные начальники) стараются понять сотрудника,
+выслушать и помочь при необходимости.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Money, money, money...&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Куда ж без них. Хвастаться тут не буду и меряться ... толщиной кошелька
+тоже. Скажу лишь что зарплата очень достойная, а главное соответствует
+уровню работника. Растешь профессионально - растет и материальная
+компенсация.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Руководство&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Может я такой везучий - у меня всегда отличные начальники. В Барс Груп я
+опять словил джек пот. Есть вопрос, есть причины - всегда можно
+добраться до высшего руководства - ни тебе записей, ни часовых ожиданий.
+Все очень демократично.&lt;/p&gt;
+&lt;p&gt;Раз уж зашла речь о руководстве, не могу не вспомнить Игоря Катыкова из
+WATS Fujitsu GDC Russia, под управлением которого поработал и имел
+удовольствие наблюдать за  его работой - до сих пор восхищаюсь.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Профи&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Это очень круто работать с теми, кто умнее тебя и у кого есть чему
+поучиться. Практически каждый день для себя выносишь кучу всего
+полезного - будь то в руководстве командой, проектировании, разработке.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Долой бюрократию&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Мои последние два с половиной года прошли в университетской среде (речь
+не об учебе, а околоуниверситетской работе). После этого работа в Барс
+Груп - это как глоток свежего воздуха. Ни тебе беготни с бумажками, ни
+собирания кучи подписей - сказка. Когда в компании более 500
+сотрудников, это не может не впечатлять и радовать. На последнем
+ежегодном собрании обещали, что мы никогда не превратимся в
+бюрократическую машину. Очень надеюсь, что так и будет.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;P.S.&lt;/strong&gt;: зачем я написал? Разное приходится слышать про Барс Груп.
+Прежде чем верить разным слухам - спросите нынешних сотрудников
+компании. Это поможет получить более полное и адекватное представление.&lt;/p&gt;</summary><category term="работа"></category><category term="барс груп"></category></entry><entry><title>20 советов при проектировании баз данных</title><link href="/2013-02-04-20.html" rel="alternate"></link><updated>2013-02-04T21:47:49+01:00</updated><author><name>Radik Fattakhov</name></author><id>tag:,2013-02-04:2013-02-04-20.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: Это перевод &lt;a href="http://www.javacodegeeks.com/2012/02/20-database-design-best-practices.html" title="20 Database Design Best Practices"&gt;статьи с JavaCodeGeeks&lt;/a&gt;  Перевод
+сделан исключительно из эгоистических соображений для повышения
+собственного уровня грамотности. Мое мнение не обязательно совпадает с
+мнением автора.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Используйте понятные и значимые имена таблиц и колонок (н-р, School,
+    StudentCourse, CourseID …)&lt;/li&gt;
+&lt;li&gt;Используйте единственное число для названия таблиц
+    (т.е. StudentCourse вместо StudentCourses). Таблица и так
+    представляет коллекцию сущностей, нет никакой необходимости во
+    множественном числе.&lt;/li&gt;
+&lt;li&gt;Не используйте пробельные символы в именах таблиц, иначе вам
+    прийдется использовать ‘{‘, ‘[‘, ‘“’ и др. знаки для обозначения
+    таблиц (н-р, для доступа к таблице Student Course надо будет
+    написать “Student Course”. StudentCourse намного лучше).&lt;/li&gt;
+&lt;li&gt;Не используйте излишние префиксы и суффиксы в именах таблиц
+    (пишите School вместо TblSchool, SchoolTable и т.п.).&lt;/li&gt;
+&lt;li&gt;Храните пароли в шифрованном виде. Расшифровывайте, при
+    необходимости, в приложении.&lt;/li&gt;
+&lt;li&gt;Используйте целочисленные идентификаторы во всех таблицах. Даже если
+    сейчас в этом нет необходимости, они могут пригодиться в будущем
+    (для связи таблиц, для индексирования...).&lt;/li&gt;
+&lt;li&gt;Для создания индексов используйте колонки с целочисленными
+    значениями. Индексирование по varchar-значениям может вызвать
+    проблемы с производительностью.&lt;/li&gt;
+&lt;li&gt;Используйте тип bit для хранения логических (boolean) полей.
+    Использование integer и varchar - излишние траты на хранение. Имена
+    этих полей начинайте с "Is".&lt;/li&gt;
+&lt;li&gt;Разграничивайте доступ к вашей базе данных. Не раздвайте привилегии
+    администратора каждому пользователю.&lt;/li&gt;
+&lt;li&gt;Используйте запросы “select *” только если это действительно
+    необходимо. Используйте "select [список_необходимых_полей]” для
+    повышения производительности.&lt;/li&gt;
+&lt;li&gt;Если ваше приложение достаточно велико, используйте ORM (object
+    relational mapping) фреймворки (н-р, hibernate, iBatis …). Проблемы
+    с производительностью ORM фреймворков могут быть решены подходящим
+    подбором параметров для их конфигурации.&lt;/li&gt;
+&lt;li&gt;Разделяйте физически большие и не используемые/редко используемые
+    таблицы/части таблиц для лучшей производительности.&lt;/li&gt;
+&lt;li&gt;Для больших, чувствительных и критических систем баз данных
+    используйте сервисы для аврийного восстановления, автоматическое
+    создание backup'ов,  отказоустойчивую кластеризацию, репликацию и
+    т.д.&lt;/li&gt;
+&lt;li&gt;Используйте ограничения (foreign key, check, not null …) для
+    целостности данных. Не отдавайте полностью контроль приложению.&lt;/li&gt;
+&lt;li&gt;Нехватка документации БД - зло. Документируйте дизайн вашей базы
+    данных при помощи схемы отношений сущностей и инструкций. Пишите
+    комментарии к вашим триггерам, хранимым процедурам и другим
+    скриптам.&lt;/li&gt;
+&lt;li&gt;Используйте индексы для больших и часто используемых таблиц.
+    Инструменты для анализа пригодятся для того, чтобы определить, где
+    необходимо объявить индексы. Для запросов, возвращающих множество
+    строк, обычно лучше подходят clustered indexes. Для точечных
+    запросов - non-clustered indexes.&lt;/li&gt;
+&lt;li&gt;Сервер базы данных и сервер приложения должны располагаться на
+    разных машинах. Это позволит улучшить безопасность (злоумышленники
+    не смогут получить прямого доступа к данным)
+    и производительность CPU и памяти сервера  будет лучше, так как это
+    уменьшит количество запросов.&lt;/li&gt;
+&lt;li&gt;Поля содержащие бинарные данные не должны объявляться в часто
+    используемых таблицах из-за проблем с производительностью. Эти
+    данные должны располагаться в другой таблице. Их указатели могут
+    быть использованы в часто используемых таблицах.&lt;/li&gt;
+&lt;li&gt;Надо правильно использовать нормализацию для оптимизации
+    производительности. Недостаточная нормализация приведет к повторному
+    использованию данных, излишняя нормализация приведет к возникновению
+    большого количества join'ов с использованием множества таблиц. И
+    первый, и второй случай ухудшат производительность.&lt;/li&gt;
+&lt;li&gt;Не пожалейте время на моделирование и дизайн базы данных. Это с
+    лихвой окупиться в будущем.&lt;/li&gt;
+&lt;/ol&gt;</summary></entry><entry><title>Семь правил использования сторонних библиотек</title><link href="/2013-01-15-sem-pravil-ispolzovaniia-storonnikh-bibliotek.html" rel="alternate"></link><updated>2013-01-15T21:42:00+01:00</updated><author><name>Radik Fattakhov</name></author><id>tag:,2013-01-15:2013-01-15-sem-pravil-ispolzovaniia-storonnikh-bibliotek.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: Это перевод &lt;a href="http://www.javacodegeeks.com/2013/01/seven-tips-for-using-third-party-libraries.html" title="Seven Tips For Using Third-Party Libraries"&gt;статьи с JavaCodeGeeks&lt;/a&gt;&lt;span&gt;.
+Перевод сделан исключительно из эгоистических соображений для повышения
+собственного уровня грамотности. Мое мнение не обязательно совпадает с
+мнением автора.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Использование библиотек может быть плачевным&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Недавно я обнаружил, что &lt;a href="http://openid.net/"&gt;библиотека, которую мы используем&lt;/a&gt;, не всегда отвечает нашим требованиям. Пошел посмотреть обновления и обнаружил, что она больше не
+поддерживается. Поэтому нашел альтернативу и, когда попытался прикрутить
+ее, оказалось, что классы старой библиотеки использованы по всему коду.&lt;/p&gt;
+&lt;p&gt;Мораль этой короткой истории - многое может пойти не так, когда вы
+используете сторонние библиотеки. Далее мы рассмотрим как правильно
+использовать библиотеки.  В основном я буду иметь ввиду open source
+библиотеки, но те же самые правила применимы и к коммерческим продуктам.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Используйте только активно поддерживаемые библиотеки&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Обратите внимание на такие вещи как - дата последнего релиза, число
+разработчиков и наличие организации-спонсора.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Используйте библиотеки с подходящей лицензией&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Какая именно лицензия подходит вам зависит от того, что вы делаете.
+Например, если  делаете и распространяете коммерческие приложения с
+закрытым исходным кодом, вы не должны использовать библиотеки,
+распространяемые только под
+лицензией &lt;a href="http://www.gnu.org/licenses/gpl.html" title="GNU General Public License"&gt;GPL&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Ограничивайте использование библиотеки в вашем коде&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Используйте паттерн &lt;a href="http://en.wikipedia.org/wiki/Facade_pattern"&gt;Facade&lt;/a&gt;, чтобы
+обернуть библиотеку в ваш интерфейс. У этого есть свои преимущества:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Это позволяет быстро заменить одну библиотеку другой, что может понадобиться в будущем&lt;/li&gt;
+&lt;li&gt;Это задокументирует ту часть библиотеки, которую вы действительно используете&lt;/li&gt;
+&lt;li&gt;Это позволит в правильном месте расширить функционал, недостающий в сторонней библиотеке&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;4. Используйте последнюю версию&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Многие разработчики придерживаются правила "работает - не трогай".
+Однако так можно пропустить некоторые ошибки. Например, многие
+библиотеки содержат уязвимости в безопасности, которые со временем
+исправляются в более поздних версиях. Вы не заметите этой проблемы до
+тех пор, пока ваше приложение не взломают.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5. Пишите тесты для обратной совместимости&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Если вы собираетесь регулярно обновлять используемую библиотеку, будет
+лучше, если вы будете знать, сломали ли авторы что-нибудь в новом
+релизе. Поэтому вам необходимо написать тесты, проверяющие необходимую
+вам функциональность. В качестве бонуса будет то, что эти тесты
+задокументируют то, как надо использовать библиотеку.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;6. Вы должны знать используемую библиотеку&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Вы всегда должны быть готовы рассказать какие библиотеки вы используете
+в данный момент и какие у них лицензии. Никогда нельзя предугадать,
+когда кто-нибудь из команды позвонит вам и скажет о критической
+уязвимости в определенной версии библиотеки, либо когда юридический
+отдел решит запретить использовать определенную лицензию.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;7. Держите все под контролем&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ваше приложение предоставляет определенную функциональность вашим
+пользователям. Их не волнует то, как вы создаете эту функциональность -
+сами или при помощи сторонних библиотек. По крайней мере их не должно
+это волновать. Когда возникают проблемы в вашем коде, вы должны быть
+способны их исправить.&lt;/p&gt;
+&lt;p&gt;Поэтому подумайте о том, как вы это собираетесь делать для используемых
+библиотек. Быстро ли их авторы реагируют на сообщения об ошибках? Есть
+ли у вас доступ к коду? Готовы ли разработчики принимать ваши патчи?
+Позволяет ли лицензия изменять код для закрытого использования?&lt;/p&gt;</summary><category term="javacodegeeks"></category><category term="translate"></category><category term="умные мысли"></category><category term="разработка"></category></entry><entry><title>Java в облаках</title><link href="/2013-01-07-java.html" rel="alternate"></link><updated>2013-01-07T11:18:00+01:00</updated><author><name>Radik Fattakhov</name></author><id>tag:,2013-01-07:2013-01-07-java.html</id><summary type="html">&lt;p&gt;В свое время, когда я только начинал изучать веб-программирование под
+Java-платформу, столкнулся со следующей проблемой: как и где мне
+захостить свои творения? Можно было бы арендовать сервер, поставить на
+него все что необходимо: базу данных, jre, все остальное и после этого
+публиковать свое приложение. Но на стипендию 600 р. в месяц позволить
+себе этого я не мог, к тому же стабильного и быстрого интернета в общаге
+тоже не было. Да и необходимых знаний, если честно, не хватало - с
+локальной установкой и небольшим администрированием справиться мог, но
+как все это сделать удаленно? Про ssh тогда и не слышал, знал что по ftp
+можно залить файлы на сервер, но этого явно было недостаточно. А когда
+только начинаешь что-то изучать, неразрешимые, на первый взгляд,
+сложности могут отбить все желание.&lt;/p&gt;
+&lt;p&gt;К чему это я тут развел все эти сопли? Дело в том, что теперь все это
+намного проще благодаря множеству XaaS платформ. За пару лет возникло
+множество разнообразных сервисов, помогающих разработчикам опубликовать
+и администрировать свои приложения всего парой простых действий. Обзор
+этих сервисов я и хочу сделать.&lt;/p&gt;
+&lt;p&gt;А чтобы это исследование было интересно не только мне, предлагаю
+неравнодушных высказать свои пожелания по критериям оценки.&lt;/p&gt;
+&lt;p&gt;Сервисы:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;jelastic.com&lt;/li&gt;
+&lt;li&gt;openshift.redhat.com&lt;/li&gt;
+&lt;li&gt;cloud.oracle.com&lt;/li&gt;
+&lt;li&gt;cloudbees.com&lt;/li&gt;
+&lt;li&gt;java.heroku.com&lt;/li&gt;
+&lt;li&gt;amazon elastic beanstalk&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Критерии:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Удобство&lt;/li&gt;
+&lt;li&gt;Публикация приложений (deployment)&lt;/li&gt;
+&lt;li&gt;Экосистема (базы данных и т.д.)&lt;/li&gt;
+&lt;li&gt;Мониторинг&lt;/li&gt;
+&lt;li&gt;Цена&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Критерии после сбора мнений и перед тем как делать обзор распишу
+подробнее. Буду благодарен вашим пожеланиям и советам.&lt;/p&gt;
+&lt;p&gt;P.S.: идея такого обзора не моя. Позаимствовал
+отсюда &lt;a href="http://blog.eisele.net/2012/12/from-xaas-to-java-ee-which-damn-cloud.html"&gt;http://blog.eisele.net/2012/12/from-xaas-to-java-ee-which-damn-cloud.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Но автор выложил только оценки без подробного обзора (хотя и обещал это
+сделать). К тому же никто не отменял правила "доверяй, но проверяй".&lt;/p&gt;</summary><category term="java"></category><category term="cloud"></category></entry><entry><title>Почему мы должны уничтожить "Big Data" [перевод]</title><link href="/2013-01-06-big-data.html" rel="alternate"></link><updated>2013-01-06T13:39:00+01:00</updated><author><name>Radik Fattakhov</name></author><id>tag:,2013-01-06:2013-01-06-big-data.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: Это перевод &lt;a href="http://techcrunch.com/2013/01/05/why-we-need-to-kill-big-data/"&gt;статьи с Techcrunch "Why We Need To Kill Big Data"&lt;/a&gt;. Перевод сделан исключительно из эгоистических соображений для повышения собственного уровня грамотности. Мое мнение не обязательно совпадает с мнением автора.&lt;/p&gt;
+&lt;p&gt;Сейчас Новый год и вместе с обещаниями есть здоровую еду, быть
+добрее и чаще заниматься спортом я хочу добавить еще несколько пунктов в
+этот список. Предлагаю уничтожить термины "big data" вместе с pivot (от
+переводчика: кто знает, что здесь имеется ввиду?), облака и все
+бессмысленные словечки, которые мы все больше ненавидим.&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;Чтобы быть до конца честным, должен признаться - как вы можете видеть
+&lt;a href="http://techcrunch.com/2012/02/07/cloudera-founders-big-data-management-startup-wibidata-raises-5m-from-nea-and-eric-schmidt/"&gt;здесь&lt;/a&gt;, &lt;a href="http://techcrunch.com/2011/07/27/sap-now-allows-businesses-to-layer-big-data-with-google-maps-and-earth/"&gt;здесь&lt;/a&gt; и &lt;a href="http://techcrunch.com/2012/11/28/agileone-raises-10m-from-mayfield-and-greylock-to-help-marketers-tap-into-big-data/"&gt;здесь&lt;/a&gt;, я сам очень злоупотреблял этим термином в своих постах. Такое ощущение, что сегодня каждый enterprise-стартап - в области "big data". Существуют даже &lt;a href="http://techcrunch.com/2011/11/08/accel-debuts-100m-fund-to-invest-in-disruptive-big-data-companies/"&gt;венчурные фонды&lt;/a&gt; специализирующиеся
+на инвестициях в "big data" стартапы.&lt;/p&gt;
+&lt;p&gt;Почему моя ненависть к словам "big data" растет? Потому что я думаю, что
+термин этот устарел и состоит из слишком общего набора слов, которые не
+отражают то, что на самом деле происходит в настоящее время с данными.
+Значение теперь имеют не просто большие данные, а то, что вы можете с
+ними делать. Важны приложения, которые надстроены над этими данными, и
+понимание, которое могут дать эти приложения. Я &lt;a href="https://twitter.com/BigDataInsights/status/246319418731270144"&gt;не единственный, кто устал&lt;/a&gt; от
+этих слов-паразитов. Я разговаривал с некоторыми инвесторами, экспертами
+и предпринимателями, которые думают так же.&lt;/p&gt;
+&lt;p&gt;По словам &lt;a href="http://it.toolbox.com/blogs/infosphere/the-origin-and-growth-of-big-data-buzz-51509"&gt;Vincent McBurney&lt;/a&gt;,
+термин "big data" создан Francis Diebold из Университета Пенсильвании,
+который в июле 2000 написал применил этот термин в связи финансовым
+моделированием. Это было более 10 лет назад. А тем временем произошло
+столько всего по отношению к тому как и что люди могут делать со всем
+этим огромным массивом данных.&lt;/p&gt;
+&lt;p&gt;Большие данные используются не только в enterprise. На самом деле каждая
+компания начиная от пользовательских &lt;a href="http://techcrunch.com/2012/08/22/how-big-is-facebooks-data-2-5-billion-pieces-of-content-and-500-terabytes-ingested-every-day/"&gt;гигантов таких как Facebook&lt;/a&gt;
+и Twitter до быстрорастущих enterprise компаний таких как Cloudera, Box,
+Okta и Good Data - все они big data companies по определению. Каждая
+компания с большим количеством вовлеченных постоянных пользователей
+накапливают большое количество данных a.k. a. "big data". В мире, в
+котором данные являются ключом к инновациям, быть "big data" стартапом
+не является чем-то уникальным и, если честно, ничего не говорит о самой
+компании.&lt;/p&gt;
+&lt;p&gt;Согласно IBM, &lt;a href="http://www-01.ibm.com/software/data/bigdata/"&gt;большие данные охватывают&lt;/a&gt; четыре
+направления: объем, скорость, разнообразие и достоверность. В настоящее
+время в мире социальных сетей, электронной торговли и даже enterprise
+хранилищ данных эти свойства применимы ко многим отраслям. Большие
+объемы данных являются нормой. Большие данные не так важны, когда
+существуют так много способов их переработки и использования этих
+массивов данных.&lt;/p&gt;
+&lt;p&gt;Это не недооценка важности инноваций в области обработки, анализе и
+сортировке больших объемов данных. На самом деле, будущее многих
+индустрий, таких как e-commerce и реклама, основано на способности
+"придавать смысл" данным. Такие стартапы
+как &lt;a href="http://techcrunch.com/2012/07/25/good-data-raises-25-million-to-extend-cloud-based-business-intelligence-platform/"&gt;GoodData&lt;/a&gt;, Infochimps,
+Cloudera, &lt;a href="http://www.crunchbase.com/company/moat"&gt;Moat&lt;/a&gt; и многие
+другие на самом деле находят убедительные способы использования данных.&lt;/p&gt;
+&lt;p&gt;Другой факт, который стоит отметить, это то, что enterprise компании как
+IBM, большие розничные сети (retailers), финансовые сервисы-гиганты и
+многие другие начали обрабатывать большие массивы данных еще до того,
+как был изобретен этот термин. Просто мы теперь обрабатываем другие типы
+данных и мы не обязаны делать это в датацентрах и использовать эти
+аналитические системы.&lt;/p&gt;
+&lt;p&gt;Давайте придумаем другой способ описать стартапы, которые имеют дело с
+большим объемом данных. Возможно название должно быть связано с
+функциональностью приложений, а не с данными. Сейчас Новый год и это
+отличное время для мозгового штурма, чтобы придумать как мы можем
+избежать "термина, который нельзя называть".&lt;/p&gt;</summary><category term="techcrunch"></category><category term="translate"></category><category term="big data"></category></entry><entry><title>Технологические тренды, за которыми надо следить в 2013 году [перевод]</title><link href="/2013-01-02-tekhnologicheskie-trendy-za-kotorymi-nado-sledit-v-2013-godu-perevod.html" rel="alternate"></link><updated>2013-01-02T10:45:00+01:00</updated><author><name>Radik Fattakhov</name></author><id>tag:,2013-01-02:2013-01-02-tekhnologicheskie-trendy-za-kotorymi-nado-sledit-v-2013-godu-perevod.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: Это перевод &lt;a href="http://www.washingtonpost.com/business/technology/tech-trends-to-watch-in-2013/2012/12/31/8464b662-5362-11e2-bf3e-76c0a789346f_story.html" title="Tech trends to watch in 2013"&gt;статьи из Washington Post&lt;/a&gt;.
+Перевод сделан исключительно из эгоистических соображений для повышения
+собственного уровня грамотности.&lt;/p&gt;
+&lt;p&gt;Нельзя просто заглянуть в хрустальный шар и увидеть тенденции,
+которые будут определять следующий год. То, что делает технологии такими
+интересными для наблюдения, это непредсказуемость. Но так как мы стоим
+на пороге 2013 года, можно определить несколько путей, которые выглядят
+созревшими для дальнейшего развития. Вот несколько пользовательских
+технологических тенденций, за которыми стоит следить в наступающем
+году:&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;strong&gt;Мобильные платежи:&lt;/strong&gt; Это постоянно и быстро развивающийся тренд.
+Область применения мобильных платежей значительно расширилась в прошлом
+году, которая, как ожидается, будет продолжать меняться в 2013.
+Приложения, работающие с купонами и лояльностью прошли, а такие
+как Apple’s Passbook и даже специфичные для магазинов приложения
+(как CVS, Target или Starbucks) уже заставляют покупателей чаще
+вытаскивать из карманов мобильные телефоны нежели кошельки для того,
+чтобы сделать оплату. Клиенты должны ожидать расширения использования
+приложений такого типа, так же как роста числа "мобильных" покупок при
+помощи смартфонов и "таблеток".&lt;/p&gt;
+&lt;p&gt;Главный вопрос этой тенденции - увидим мы или нет в 2013 году взлет
+мобильных и бесконтактных платежей с использованием NFC (near-field
+communication) чипов или других технологий. Все больше производителей
+смартфонов включают такие возможности в свои аппараты, но розничные
+продавцы, а значит и среднестатистические покупатели, медленней
+принимают эти технологии. Взлет "мобильных" платежей покажет, что люди
+стали менее недоверчивы к оплате через свои мобильные устройства. Будет
+интересно увидеть, сможет ли пользовательский спрос подтолкнуть прогресс
+в этой области в 2013 году.&lt;/p&gt;</summary><category term="washington post"></category><category term="translate"></category><category term="tech trends"></category></entry><entry><title>Книги, которые я хочу почитать</title><link href="/2012-10-30-knigi-kotorye-ia-khochu-pochitat.html" rel="alternate"></link><updated>2012-10-30T14:17:11+01:00</updated><author><name>Radik Fattakhov</name></author><id>tag:,2012-10-30:2012-10-30-knigi-kotorye-ia-khochu-pochitat.html</id><summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;The Architecture of Open Source Applications&lt;/em&gt;&lt;/strong&gt; - [&lt;strong&gt;&lt;a href="http://www.aosabook.org/en/index.html"&gt;Full textavailable online&lt;/a&gt;&lt;/strong&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;Structure and Interpretation of Computer Programs&lt;/em&gt;&lt;/strong&gt;. &lt;em&gt;Harold Abelson and Gerald J. Sussman. 2nd edition. MIT Press 1996.&lt;/em&gt; - [&lt;a href="http://mitpress.mit.edu/sicp/"&gt;&lt;strong&gt;Full text available online&lt;/strong&gt;&lt;/a&gt;].&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;Programming in Scala&lt;/em&gt;&lt;/strong&gt;. &lt;em&gt;Martin Odersky, Lex Spoon and Bill Venners. 2nd edition. Artima 2010.&lt;/em&gt; - [&lt;a href="http://www.artima.com/pins1ed/"&gt;&lt;strong&gt;Full text of 1st edition available online&lt;/strong&gt;&lt;/a&gt;].&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="books"></category></entry></feed>

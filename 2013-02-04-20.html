@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <!-- ## for client-side less
+  <link rel="stylesheet/less" type="text/css" href="/theme/css/style.less">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.7.3/less.min.js" type="text/javascript"></script>
+  -->
+  <link rel="stylesheet" type="text/css" href="/theme/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/theme/css/pygments.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans|PT+Serif|PT+Mono">
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Radik Fattakhov">
+  <meta name="description" content="Posts and writings by Radik Fattakhov">
+
+  <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Radik Fattakhov Atom" />
+
+<meta name="keywords" content="">
+
+  <title>
+    Radik Fattakhov
+&ndash; 20 советов при проектировании баз данных  </title>
+
+</head>
+
+<body>
+  <aside>
+    <div id="user_meta">
+      <a href="">
+        <img src="/theme/images/logo.png" alt="logo">
+      </a>
+      <h2><a href="">Radik Fattakhov</a></h2>
+      <p></p>
+      <ul>
+        <li><a href="http://twitter.com/radikft" target="_blank">Twitter</a></li>
+        <li><a href="http://github.com/radik" target="_blank">Github</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <main>
+    <header>
+      <p>
+      <a href="">Index</a> &brvbar; <a href="/archives.html">Archives</a>
+      &brvbar; <a href="/feeds/all.atom.xml">Atom</a>
+      </p>
+    </header>
+
+<article>
+  <div class="article_title">
+    <h3><a href="/2013-02-04-20.html">20 советов при проектировании баз данных</a></h3>
+  </div>
+  <div class="article_text">
+    <p><strong>Disclaimer</strong>: Это перевод <a href="http://www.javacodegeeks.com/2012/02/20-database-design-best-practices.html" title="20 Database Design Best Practices">статьи с JavaCodeGeeks</a>  Перевод
+сделан исключительно из эгоистических соображений для повышения
+собственного уровня грамотности. Мое мнение не обязательно совпадает с
+мнением автора.</p>
+<ol>
+<li>Используйте понятные и значимые имена таблиц и колонок (н-р, School,
+    StudentCourse, CourseID …)</li>
+<li>Используйте единственное число для названия таблиц
+    (т.е. StudentCourse вместо StudentCourses). Таблица и так
+    представляет коллекцию сущностей, нет никакой необходимости во
+    множественном числе.</li>
+<li>Не используйте пробельные символы в именах таблиц, иначе вам
+    прийдется использовать ‘{‘, ‘[‘, ‘“’ и др. знаки для обозначения
+    таблиц (н-р, для доступа к таблице Student Course надо будет
+    написать “Student Course”. StudentCourse намного лучше).</li>
+<li>Не используйте излишние префиксы и суффиксы в именах таблиц
+    (пишите School вместо TblSchool, SchoolTable и т.п.).</li>
+<li>Храните пароли в шифрованном виде. Расшифровывайте, при
+    необходимости, в приложении.</li>
+<li>Используйте целочисленные идентификаторы во всех таблицах. Даже если
+    сейчас в этом нет необходимости, они могут пригодиться в будущем
+    (для связи таблиц, для индексирования...).</li>
+<li>Для создания индексов используйте колонки с целочисленными
+    значениями. Индексирование по varchar-значениям может вызвать
+    проблемы с производительностью.</li>
+<li>Используйте тип bit для хранения логических (boolean) полей.
+    Использование integer и varchar - излишние траты на хранение. Имена
+    этих полей начинайте с "Is".</li>
+<li>Разграничивайте доступ к вашей базе данных. Не раздвайте привилегии
+    администратора каждому пользователю.</li>
+<li>Используйте запросы “select *” только если это действительно
+    необходимо. Используйте "select [список_необходимых_полей]” для
+    повышения производительности.</li>
+<li>Если ваше приложение достаточно велико, используйте ORM (object
+    relational mapping) фреймворки (н-р, hibernate, iBatis …). Проблемы
+    с производительностью ORM фреймворков могут быть решены подходящим
+    подбором параметров для их конфигурации.</li>
+<li>Разделяйте физически большие и не используемые/редко используемые
+    таблицы/части таблиц для лучшей производительности.</li>
+<li>Для больших, чувствительных и критических систем баз данных
+    используйте сервисы для аврийного восстановления, автоматическое
+    создание backup'ов,  отказоустойчивую кластеризацию, репликацию и
+    т.д.</li>
+<li>Используйте ограничения (foreign key, check, not null …) для
+    целостности данных. Не отдавайте полностью контроль приложению.</li>
+<li>Нехватка документации БД - зло. Документируйте дизайн вашей базы
+    данных при помощи схемы отношений сущностей и инструкций. Пишите
+    комментарии к вашим триггерам, хранимым процедурам и другим
+    скриптам.</li>
+<li>Используйте индексы для больших и часто используемых таблиц.
+    Инструменты для анализа пригодятся для того, чтобы определить, где
+    необходимо объявить индексы. Для запросов, возвращающих множество
+    строк, обычно лучше подходят clustered indexes. Для точечных
+    запросов - non-clustered indexes.</li>
+<li>Сервер базы данных и сервер приложения должны располагаться на
+    разных машинах. Это позволит улучшить безопасность (злоумышленники
+    не смогут получить прямого доступа к данным)
+    и производительность CPU и памяти сервера  будет лучше, так как это
+    уменьшит количество запросов.</li>
+<li>Поля содержащие бинарные данные не должны объявляться в часто
+    используемых таблицах из-за проблем с производительностью. Эти
+    данные должны располагаться в другой таблице. Их указатели могут
+    быть использованы в часто используемых таблицах.</li>
+<li>Надо правильно использовать нормализацию для оптимизации
+    производительности. Недостаточная нормализация приведет к повторному
+    использованию данных, излишняя нормализация приведет к возникновению
+    большого количества join'ов с использованием множества таблиц. И
+    первый, и второй случай ухудшат производительность.</li>
+<li>Не пожалейте время на моделирование и дизайн базы данных. Это с
+    лихвой окупиться в будущем.</li>
+</ol>
+  </div>
+  <div class="article_meta">
+    <p>Posted on: Mon 04 February 2013</p>
+    <p>Category: <a href="/category/blog.html">Blog</a>
+    </p>
+  </div>
+
+
+</article>
+
+
+    <div id="ending_message">
+      <p>&copy; Radik Fattakhov. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>. Theme by Giulio Fidente on <a href="https://github.com/gfidente/pelican-svbhack" target="_blank">github</a>. .</p>
+    </div>
+  </main>
+</body>
+</html>
