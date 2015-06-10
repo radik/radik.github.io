@@ -13,7 +13,7 @@ Slug: 2015-06-10-kaggle-avito-contest
 Для участия выбрал клнкурс от [avito.ru](http://avito.ru).
 Суть задания - создать модель, предсказывающую кликнет ли пользователь
 на том или ином объявлении. Подробнее можно прочитать
-[в описании]([конкурс](https://www.kaggle.com/c/avito-context-ad-clicks/data).
+[в описании](https://www.kaggle.com/c/avito-context-ad-clicks/data).
 
 Исходные данные и инструментарий:
 
